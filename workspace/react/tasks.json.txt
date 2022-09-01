@@ -1,0 +1,17 @@
+//https://code.visualstudio.com/docs/languages/css
+//npm install -g sass less
+//npm install -g gulp
+//npm install gulp gulp-sass gulp-less
+
+// Sass & Less configuration
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Sass Less Compile",
+      "type": "shell",
+      "command": "sass styles.scss styles.css lessc styles.less styles.css",
+      "group": "build"
+    }
+  ]
+}

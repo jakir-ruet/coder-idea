@@ -1,0 +1,62 @@
+{
+  //basic of vscode
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.lineHeight": 2,
+  "editor.tabSize": 3,
+  "editor.minimap.maxColumn": 45,
+  "editor.mouseWheelZoom": true,
+  "security.workspace.trust.untrustedFiles": "open",
+
+  //html section
+  "html.suggest.html5": true,
+  "html.autoClosingTags": true,
+  "editor.linkedEditing": true,
+  "html.validate.scripts": true,
+  "html.validate.styles": true,
+  "[html]": {
+    "editor.foldingStrategy": "indentation"
+  },
+  // "emmet.includeLanguages": {
+  //     "javascript": "html"
+  // },
+
+  //css section
+  "editor.colorDecorators": false,
+  "[css]": {
+    "editor.colorDecorators": false,
+    "editor.foldingStrategy": "indentation"
+  },
+  "css.validate": false,
+  "css.format.enable": true,
+  "css.format.newlineBetweenRules": true,
+
+  //less & sass
+
+  //javascript & typescript
+  "javascript.autoClosingTags": true,
+  "javascript.format.enable": true,
+  "javascript.format.semicolons": "insert",
+  "typescript.autoClosingTags": true,
+  "typescript.format.enable": true,
+  "typescript.format.semicolons": "insert",
+
+  //IntelliSense
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.quickSuggestionsDelay": 10,
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.tabCompletion": "on",
+  "editor.suggest.localityBonus": true,
+  "editor.suggestSelection": "first",
+  "editor.wordBasedSuggestions": true,
+  "editor.parameterHints.enabled": true,
+  "workbench.colorTheme": "Dracula"
+}
