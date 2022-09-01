@@ -1,6 +1,4 @@
-{
-  // config related to code formatting
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+"editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "[javascript]": {
     "editor.formatOnSave": false,
@@ -10,17 +8,14 @@
     "editor.formatOnSave": false,
     "editor.defaultFormatter": null
   },
-  //disable all built-in syntax checking
-  "javascript.validate.enable": false,
+  "javascript.validate.enable": false, //disable all built-in syntax checking
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll.tslint": true,
     "source.organizeImports": true
   },
   "eslint.alwaysShowStatus": true,
-  // emmeting the codes
   "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   }
-}
